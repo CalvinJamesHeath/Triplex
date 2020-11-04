@@ -63,7 +63,7 @@ width: 50vw;
 
 .rosas{
   object-fit: contain;
-  font-size: 8vw;
+  font-size: 6vw;
   text-align: center;
   height:25vw;
   line-height: 20vw;
@@ -84,3 +84,17 @@ text-shadow: 5px 5px 0px #eb452b,
 
 
 
+@media only screen and (max-width: 1000px){
+    .rosas{
+  background: blue;
+        text-shadow: 1px 1px 0px #eb452b, 
+            2px 2px 0px #efa032, 
+            3px 3px 0px #46b59b, 
+            4px 4px 0px #017e7f, 
+            5px 5px 0px #052939, 
+            6px 6px 0px #c11a2b, 
+            7px 7px 0px #c11a2b, 
+            8px 8px 0px #c11a2b, 
+            9px 9px 0px #c11a2b;
+    }
+}
