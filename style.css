@@ -80,7 +80,7 @@ h5 {
     align-items: center;
   }
   .card {
-    margin: 2vh;
+    margin-bottom: 2vh;
   }
   .footer__text {
     font-size: 5em;
