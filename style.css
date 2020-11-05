@@ -81,6 +81,10 @@ h5 {
     .card{
         margin: 2vh;
     }
+    footer__text{
+        font-size: 2em;
+    }
+    
   }
 
 @media only screen and (max-width: 1000px) {
