@@ -16,14 +16,15 @@
   /* background-color: #3498db; */
   height: 110px;
 }
-h2{
-    font-size: 4vw;
-    text-align: center;
-    color: black;
-    text-decoration: underline;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-align: center;
+h2 {
+  font-size: calc(17px + 2vw);
+  /* font-size: 4vw; */
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 h5 {
@@ -52,7 +53,7 @@ h5 {
   box-shadow: 0 30px 28px 0 rgba(0, 0, 3, 0.2);
   object-fit: contain;
   width: auto;
-} 
+}
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -74,23 +75,25 @@ h5 {
 }
 
 @media only screen and (max-width: 1000px) {
-    .my-row{
-        flex-direction: column;
-        align-items: center;
-    }
-    .card{
-        margin: 2vh;
-    }
-    .footer__text{
-        font-size: 5em;
-    }
-    h5{
-        font-size: 2.1em;
-    }
-    .card-text{
-        font-size: 2em;
-    }
+  .my-row {
+    flex-direction: column;
+    align-items: center;
   }
+  .card {
+    margin: 2vh;
+  }
+  .footer__text {
+    font-size: 5em;
+  }
+  h5 {
+    font-size: 2.1em;
+  }
+  .card-text {
+    font-size: 2em;
+  }
+  h2 {
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   .rosas {
@@ -116,9 +119,9 @@ footer {
   text-align: center;
 }
 
-.footer__text{
-    padding-top:0.5rem;
-    text-align: center;
-    color: white;
-    font-size: 1em;
+.footer__text {
+  padding-top: 0.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1em;
 }
