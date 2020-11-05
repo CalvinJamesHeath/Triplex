@@ -42,12 +42,7 @@ h5 {
   object-fit: cover;
 }
 
-.container {
-  align-items: center;
-  margin-bottom: 2vw;
-  width: 100%;
-  height: auto;
-}
+
 
 .card {
   box-shadow: 0 30px 28px 0 rgba(0, 0, 3, 0.2);
@@ -75,10 +70,10 @@ h5 {
 }
 
 @media only screen and (max-width: 1000px) {
-  .my-row {
+  /* .my-row {
     flex-direction: column;
     align-items: center;
-  }
+  } */
   .card {
     margin-bottom: 2vh;
   }
@@ -91,10 +86,10 @@ h5 {
   .card-text {
     font-size: 2em;
   }
-  h2 {
-  }
 }
-
+.my-row{
+  margin: 2vw;
+}
 @media only screen and (max-width: 1000px) {
   .rosas {
     text-shadow: 1px 1px 0px #eb452b, 2px 2px 0px #efa032, 3px 3px 0px #46b59b,
