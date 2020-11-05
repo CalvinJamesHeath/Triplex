@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .map {
   width: 100%;
   padding: 3vw;
@@ -18,16 +17,17 @@
   height: 110px;
 }
 h2{
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
     color: black;
     text-decoration: underline;
     margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 h5 {
-  font-size: 5vw;
+  font-size: 2vw;
   text-align: center;
   color: black;
   text-decoration: underline;
@@ -37,25 +37,22 @@ h5 {
 
 .card-img-top {
   width: 100%;
-  height: auto;
-  object-fit: fill;
+  height: 80vh;
+  object-fit: cover;
 }
 
 .container {
   align-items: center;
-  display: flex;
-  flex-direction: column;
-  /* background-color: lightslategray; */
+  margin-bottom: 2vw;
   width: 100%;
   height: auto;
 }
 
 .card {
-  margin: 15px;
   box-shadow: 0 30px 28px 0 rgba(0, 0, 3, 0.2);
   object-fit: contain;
-  width: 50vw;
-}
+  width: auto;
+} 
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -75,6 +72,16 @@ h5 {
     20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b,
     35px 35px 0px #c11a2b, 40px 40px 0px #c11a2b, 45px 45px 0px #c11a2b;
 }
+
+@media only screen and (max-width: 1000px) {
+    .my-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin: 2vh;
+    }
+  }
 
 @media only screen and (max-width: 1000px) {
   .rosas {
