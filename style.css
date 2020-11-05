@@ -84,7 +84,12 @@ h5 {
     .footer__text{
         font-size: 5em;
     }
-    
+    h5{
+        font-size: 1.7em;
+    }
+    .card-text{
+        font-size: 1.5em;
+    }
   }
 
 @media only screen and (max-width: 1000px) {
