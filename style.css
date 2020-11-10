@@ -42,8 +42,6 @@ h5 {
   object-fit: cover;
 }
 
-
-
 .card {
   box-shadow: 0 30px 28px 0 rgba(0, 0, 3, 0.2);
   object-fit: contain;
@@ -58,8 +56,8 @@ h5 {
   object-fit: contain;
   font-size: 8vw;
   text-align: center;
-  height: 25vw;
-  line-height: 20vw;
+  height: 15vw;
+  line-height: 10vw;
   color: #fcedd8;
   background: #d52e3f;
   font-family: "Niconne", cursive;
@@ -87,7 +85,7 @@ h5 {
     font-size: 2em;
   }
 }
-.my-row{
+.my-row {
   margin: 2vw;
 }
 @media only screen and (max-width: 1000px) {
