@@ -9,7 +9,7 @@
 
 .card-text {
   text-align: center;
-  font-size: 1.4vw;
+  font-size: 1.6vw;
 }
 
 .header {
@@ -84,11 +84,11 @@ h5 {
   .card-text {
     font-size: 2em;
   }
+  .col-md-6 {
+    margin: 2vw;
+  }
 }
 .my-row {
-  margin: 2vw;
-}
-.col-md-6 {
   margin: 2vw;
 }
 @media only screen and (max-width: 1000px) {
@@ -96,7 +96,7 @@ h5 {
     text-shadow: 1px 1px 0px #eb452b, 2px 2px 0px #efa032, 3px 3px 0px #46b59b,
       4px 4px 0px #017e7f, 5px 5px 0px #052939, 6px 6px 0px #c11a2b,
       7px 7px 0px #c11a2b, 8px 8px 0px #c11a2b, 9px 9px 0px #c11a2b;
-    padding-top: 10px;
+    padding: 10px;
   }
 }
 
