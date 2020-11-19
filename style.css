@@ -17,13 +17,13 @@
   height: 110px;
 }
 h2 {
-  font-size: calc(17px + 2vw);
+  font-size: calc(14px + 2vw);
   /* font-size: 4vw; */
   text-align: center;
   color: black;
   text-decoration: underline;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -32,7 +32,6 @@ h5 {
   text-align: center;
   color: black;
   text-decoration: underline;
-  margin-top: 5px;
   text-align: center;
 }
 
@@ -85,12 +84,11 @@ h5 {
     font-size: 1.5em;
   }
   .col-md-6 {
-    margin-bottom: 2vw;
+    /* margin-bottom: 5vw; */
+    margin: 3vw;
   }
 }
-.my-row {
-  margin: 2vw;
-}
+
 @media only screen and (max-width: 1000px) {
   .rosas {
     text-shadow: 1px 1px 0px #eb452b, 2px 2px 0px #efa032, 3px 3px 0px #46b59b,
@@ -104,6 +102,16 @@ h5 {
   /* padding: 1.5em; */
   /* height: 37vw; */
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.ultimo {
+  background-color: black;
+  color: white;
+}
+
+.ultimo-texto {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 footer {
