@@ -42,12 +42,12 @@ body {
 
 h2 {
   background-color: #000000;
-  font-size: calc(12px + 2vw);
-  font-weight: 600px;
+  font-size: calc(10px + 2vw);
+  font-weight: 500px;
   margin-bottom: 0;
   text-align: center;
   color: #ffffff;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   padding: 0.5vw 1vw 1.5vw;
   text-align: center;
 }
@@ -91,6 +91,21 @@ h5 {
     20px 20px 0px #017e7f, 25px 25px 0px #052939, 30px 30px 0px #c11a2b,
     35px 35px 0px #c11a2b, 40px 40px 0px #c11a2b, 45px 45px 0px #c11a2b;
 }
+.header-phone {
+  object-fit: contain;
+  font-size: 7vw;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  height: 10vw;
+  line-height: 10vw;
+  color: #ffffff;
+  background: #d52e3f;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  display: none;
+}
 
 @media only screen and (max-width: 1200px) {
   /* .my-row {
@@ -127,10 +142,14 @@ h5 {
 }
 @media only screen and (max-width: 1000px) {
   .rosas {
-    text-shadow: 1px 1px 0px #eb452b, 2px 2px 0px #efa032, 3px 3px 0px #46b59b,
+    display: none;
+    /* text-shadow: 1px 1px 0px #eb452b, 2px 2px 0px #efa032, 3px 3px 0px #46b59b,
       4px 4px 0px #017e7f, 5px 5px 0px #052939, 6px 6px 0px #c11a2b,
       7px 7px 0px #c11a2b, 8px 8px 0px #c11a2b, 9px 9px 0px #c11a2b;
-    padding: 10px;
+    padding: 10px; */
+  }
+  .header-phone {
+    display: inherit;
   }
 }
 
