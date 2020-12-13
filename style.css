@@ -5,6 +5,9 @@
 body {
   /* background-color: lightslategray; */
 }
+img {
+  cursor: pointer;
+}
 .map {
   width: 100%;
   padding: 3vw;
@@ -18,6 +21,10 @@ body {
 }
 .carousel-caption {
   position: absolute !important;
+  z-index: 0;
+}
+.carousel-indicators {
+  z-index: 1;
 }
 .carousel-item {
   height: 40rem;
