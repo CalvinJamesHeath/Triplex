@@ -158,6 +158,9 @@ h5 {
   .header-phone {
     display: inherit;
   }
+  .animation {
+    margin-top: 18px;
+  }
 }
 
 .container_map {
@@ -181,7 +184,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 0.7rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -196,7 +199,7 @@ footer {
   font-family: sans-serif;
   text-transform: uppercase;
   font-size: 2em;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   overflow: hidden;
   background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
