@@ -208,6 +208,7 @@ footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
   margin: 1.5rem 0rem 1rem 0rem;
+  z-index: 100;
 }
 
 @keyframes animate {
